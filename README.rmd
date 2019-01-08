@@ -1,0 +1,22 @@
+---
+title: "READ_ME"
+author: "DC"
+date: "8 January 2019"
+output: html_document
+---
+
+##Usage
+This script was created to clean and summarise the data set found at "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+
+The only pre-requirements are to download the data set from the above address and to unzip it
+to your current working directory
+
+##functionality
+This script will:
+
+* Read the required data into R
+* Combine the test and training datasets
+* Correctly label ID and Measurement variables
+* Summarise the data to each variable's Mean
+* Save the results in a new file called cleanData.csv
+
